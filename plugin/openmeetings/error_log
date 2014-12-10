@@ -1,0 +1,1 @@
+[10-Dec-2014 22:41:31 UTC] PHP Fatal error:  Call to a member function createRoomWithModAndType() on a non-object in /home/clubipn/public_html/edu/plugin/openmeetings/lib/openmeetings.class.php on line 186
