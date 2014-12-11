@@ -86,11 +86,10 @@ function facebook_connect() {
 function facebook_get_login_url() {
     global $facebook, $facebook_config;
 
-    $login_url = $facebook->getLoginUrl(
+    $login_url = $facebook->getLogiFnUrl(
             array(
                 'scope' => 'email,publish_stream',
-                'redirect_uri' => $facebook_config['return_url'],
-                'client_id' => $facebook_config['appId']
+                'redirect_uri' => $facebook_config['return_url']
             )
     );
     return $login_url;
