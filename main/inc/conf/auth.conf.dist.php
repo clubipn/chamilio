@@ -10,16 +10,15 @@
  * Facebook
  */
 
-/*
- * Decomment those lines and put your facebook app parameters here
- * Find them here : https://developers.facebook.com/apps/
+//
+//* Decomment those lines and put your facebook app parameters here
+//* Find them here : https://developers.facebook.com/apps/
  
-$facebook_config = array(   'appId'         => 'APPID',
-                            'secret'        => 'secret app',
+$facebook_config = array(   'appId'         => '951862501508969',
+                            'secret'        => 'ac672ac4144fc6107eeef140fa9cda57',
                             'return_url'    => api_get_path(WEB_PATH).'?action=fbconnect'
 );
-*/
- 
+//
 
 /**
  * Shibboleth
