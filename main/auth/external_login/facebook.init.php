@@ -19,7 +19,7 @@ require_once dirname(__FILE__) . '/facebook-php-sdk/src/facebook.php';
 global $facebook_config;
 
 //Loads the portal facebook settings
-require_once '../../inc/conf/auth.conf.php';
+require_once '/home/clubipn/public_html/edu/main/inc/conf/auth.conf.php';
 
 /**
  * See facebook section of the auth.conf.php file
